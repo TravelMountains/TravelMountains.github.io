@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/reset.css">
+	<title>Mountains</title>
+	<link rel="stylesheet" href="css/reset.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="js/slick/slick/slick.css">
-	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
-	<script src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
 
 
 </head>
@@ -36,18 +34,15 @@
 				<a href="#" class="nav__link link">journal</a>
 			</nav>
 			<div class="header__controls">
-				<div class="nav__humburger header__btn">
+				<div class="nav__hamburger header__btn">
 					<span>Menu</span>
 				</div>
-				<button class="call__btn header__btn">
-				<a href="tel: 1234">Call us</a>
-				</button>
+				<button class="call__btn header__btn">Call us</button>
 			</div>
 		</div>
 	</header>
-	<!--//= template/footer.html-->
 
-	<!--BUNNER-->
+	<!--SECTION 1-->
 	<section class="sec1">
 		<div class="sec1__box">
 			<h1 class="sec1__h1">Travel with us</h1>
@@ -57,8 +52,8 @@
 		</div>
 	</section>
 
+	<!--OUR JOURNAL-->
 	<section class="ourJournal" id="ourJournal">
-
 		<h2 class="ourJournal__h2">Our journal</h2>
 		<div class="container ourJournal__box ">
 
@@ -72,25 +67,25 @@
 			</div>
 
 			<div class="row__item item_bg2 icon_drop rotateInDownRight wow"></div>
-
-
 			<div class="row__item item_text item2_order rotateInDownRight wow">
 				<span class="ourJournal__item__span">Tree</span>
-				<h4 class="ourJournal__item__h4">Lorem ipsum dolor sit amet, <span class="lineThrought">consectetur</span> adipisicing elit,</h4>
+				<h4 class="ourJournal__item__h4">Lorem ipsum dolor sit amet,
+					<span class="lineThrought">consectetur</span> adipisicing elit,</h4>
 				<p class="ourJournal__item__p">The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.</p>
 				<span class="ourJournal__item__num">02</span>
 			</div>
 			<div class="row__item item_bg3 icon_leaf fadeInUp wow"></div>
-			
+
 			<div class="row__item item_text item3_order rotateInDownLeft wow">
 				<span class="ourJournal__item__span">Water</span>
 				<h4 class="ourJournal__item__h4">TTLE PIECES OF OUR<br> PROUDNESS</h4>
 				<p class="ourJournal__item__p">What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?</p>
 				<span class="ourJournal__item__num">03</span>
 			</div>
-
-			</div>
+		</div>
 	</section>
+
+	<!--HOW WE WORK-->
 	<section class="howWeWork" id="howWeWork">
 		<h2 class="howWeWork__h2">How we work</h2>
 		<div class="howWeWork__box container">
@@ -134,10 +129,10 @@
 					<p class="howWeWork__item__p">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 				</div>
 			</div>
-
-
 		</div>
 	</section>
+
+	<!--	TRAVEL WITH US-->
 	<section class="travelWithUs" id="travelWithUs">
 		<h2 class="travelWithUs__h2">Travel with us</h2>
 		<div class="travelWithUs__box container slider responsive">
@@ -186,10 +181,10 @@
 					<span class="travelWithUs__priceNew">$593</span>
 				</div>
 			</div>
-
 		</div>
-
 	</section>
+
+	<!--	GALLERY-->
 	<section class="gallery">
 		<h2 class="gallery__h2">Gallery</h2>
 		<div class="container gallery__box">
@@ -207,6 +202,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!--	FEEDBACK-->
 	<section class="feedback" id="feedback">
 		<h2 class="feedback__h2">Our clients say</h2>
 		<div class="container feedback__box">
@@ -231,24 +228,33 @@
 				</div>
 			</div>
 		</div>
-			<form action="" method="post" class="feedback__form">
-				<div class="form__title">Contacts</div>
-				<div class="form__promo">Sign up for our newsletter to receive updates</div>
-				<input type="text" name="name" placeholder="Name" required>
-				<input type="tel" name="phone" placeholder="Phone" required>
-				<input type="email" name="email" placeholder="E-mail" required>
-				<input class="form__btn btn_style" type="submit" value="Send">
-			</form>
+<!--		FORM-->
+		<form method="post" class="feedback__form">
+			<div class="form__title">Contacts</div>
+			<div class="form__promo">Sign up for our newsletter to receive updates</div>
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="tel" name="phone" placeholder="Phone" required>
+			<input type="email" name="email" placeholder="E-mail" required>
+			<input class="form__btn btn_style" type="submit" value="Send">
+		</form>
 	</section>
-	<!--<script src="js/main.js"></script>-->
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<!--	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7/jquery.min.js"></script>-->
-<!--
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
--->
+	<!--	SCRIPTS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<!--		WOW ANIMATE-->
+	<script>
+if (document.body.clientWidth>400){
+   document.write('<script src="js/wow.min.js"><\/script>');
+}		
+</script>
+<!--	<script src="js/wow.min.js"></script>-->
+	<script>
+		new WOW().init();
+	</script>
+
+	<!--SLICK-->
 	<script type="text/javascript" src="js/slick/slick/slick.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -287,27 +293,24 @@
 							slidesToScroll: 1
 						}
 					}
-					// You can unslick at a given breakpoint now by adding:
-					// settings: "unslick"
-					// instead of a settings object
 				]
 			});
 		});
 	</script>
 
+	<!--NAV-->
 	<script>
-		$(".nav__humburger").click(function() {
-  $(".header__nav").toggleClass("header__nav_open");
-});
+		$(".nav__hamburger").click(function() {
+			$(".header__nav").toggleClass("header__nav_open");
+		});
 
-$(document).mouseup(function(e) {
-  var $target = $(e.target);
-  if ($target.closest(".header__nav").length == 0 && $target.closest(".nav__humburger").length == 0) {
-    $(".header__nav").removeClass("header__nav_open");
-  }
-});
+		$(document).mouseup(function(e) {
+			var $target = $(e.target);
+			if ($target.closest(".header__nav").length == 0 && $target.closest(".nav__hamburger").length == 0) {
+				$(".header__nav").removeClass("header__nav_open");
+			}
+		});
 	</script>
-	
 </body>
 
 </html>
